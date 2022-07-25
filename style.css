@@ -1,0 +1,174 @@
+* {
+  font-family: Helvetica;
+  background-color: black;
+  color: seashell;
+  opacity: 0.9;
+  padding: 0px;
+  margin: 0px;
+}
+
+.logo {
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav {
+  height: 69px;
+  font-size: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li {
+  padding-left: 10px;
+  text-decoration: underline;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  padding-right: 10px;
+}
+
+.sectionOne{
+  background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*119j3nb*_ga*NTc2Njg0Nzc3OS4xNjU2NDQyMjEx*_ga_3LRZM6TM9L*MTY1ODc1NzcxOC41My4xLjE2NTg3NTc3MzYuNDI.');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 700px;
+  flex-basis: 1200px;
+  margin: 0px 20px;
+}
+
+.sectionOne h2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0px 10px 0px 0px;
+}
+
+.sectionOne h4{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px 0px;
+}
+
+.sectionTwo {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.teas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.teas div {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+  padding: 0 10px;
+}
+
+.teaPicture {
+  height: 200px;
+  width: 300px;
+  padding-bottom: 10px;
+}
+
+.sectionThree {
+  background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1n1uv3o*_ga*NTc2Njg0Nzc3OS4xNjU2NDQyMjEx*_ga_3LRZM6TM9L*MTY1ODc4NDIxNC41NC4xLjE2NTg3ODQyMzkuMzU.');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20px;
+}
+
+.sectionThree h2 {
+  background: transparent; 
+  
+}
+
+.locations {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: transparent; 
+}
+
+.location{
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  align-items: center; 
+  margin: 15px 40px;
+  opacity: 1;
+  
+}
+
+.location h3{
+  padding: 10px;
+}
+
+.location p {
+  padding: 10px;
+}
+
+footer {
+  margin: 0 20px;
+  padding-bottom: 20px;
+}
+
+.contact {
+  height: 200px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer h5 {
+  text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
