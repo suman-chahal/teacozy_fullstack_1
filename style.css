@@ -19,6 +19,10 @@ body {
 }
 
 nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   height: 69px;
   font-size: 22px;
   display: flex;
@@ -42,6 +46,7 @@ nav ul {
   background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*119j3nb*_ga*NTc2Njg0Nzc3OS4xNjU2NDQyMjEx*_ga_3LRZM6TM9L*MTY1ODc1NzcxOC41My4xLjE2NTg3NTc3MzYuNDI.');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -101,7 +106,8 @@ nav ul {
   background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1n1uv3o*_ga*NTc2Njg0Nzc3OS4xNjU2NDQyMjEx*_ga_3LRZM6TM9L*MTY1ODc4NDIxNC41NC4xLjE2NTg3ODQyMzkuMzU.');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
+  background-image: center;
+  min-height: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
