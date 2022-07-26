@@ -2,14 +2,15 @@
   font-family: Helvetica;
   background-color: black;
   color: seashell;
-  opacity: 0.9;
   padding: 0px;
   margin: 0px;
+  font-size: 22px;
 }
 
 body {
   max-width: 1500px;
   margin: 0 auto;
+  pacity: 0.9;
 }
 
 .logo {
@@ -154,7 +155,6 @@ footer {
 footer h5 {
   text-align: left;
 }
-
 
 
 
